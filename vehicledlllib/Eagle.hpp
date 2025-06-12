@@ -1,9 +1,9 @@
 #pragma once
-#include "Entity.hpp"
+#include "AirTransport.hpp"
 
 namespace vehicle
 {
-	class VEHICLEDLLLIB_API Eagle : public Entity
+	class VEHICLEDLLLIB_API Eagle : public AirTransport
 	{
 	public:
 		Eagle();

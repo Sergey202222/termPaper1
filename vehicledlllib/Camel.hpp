@@ -1,9 +1,9 @@
 #pragma once
-#include "Entity.hpp"
+#include "GroundTransport.hpp"
 
 namespace vehicle
 {
-	class VEHICLEDLLLIB_API Camel : public Entity
+	class VEHICLEDLLLIB_API Camel : public GroundTransport
 	{
 	public:
 		Camel();

@@ -4,22 +4,18 @@
 #else
 #define VEHICLEDLLLIB_API __declspec(dllimport)
 #endif
-#include <iostream>
+
+#include <string>
 
 namespace vehicle
 {
-    class VEHICLEDLLLIB_API Entity
+	class VEHICLEDLLLIB_API Transport
 	{
 	protected:
 		std::string name;
-		int speed;
-		int travelTimeBeforeRest;
-		double firstVacation;
-		double secondVacation;
-		double allSubsequentTimes;
 	public:
-		Entity();
-		virtual double Time(double);
+		Transport();
 		std::string get_name();
+		virtual double Time(double);
 	};
 }

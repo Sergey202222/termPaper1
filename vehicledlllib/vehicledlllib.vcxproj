@@ -19,25 +19,29 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="AirTransport.hpp" />
     <ClInclude Include="AllTerrainBoots.hpp" />
     <ClInclude Include="Broom.hpp" />
     <ClInclude Include="Camel.hpp" />
     <ClInclude Include="Centaur.hpp" />
     <ClInclude Include="Eagle.hpp" />
-    <ClInclude Include="Entity.hpp" />
+    <ClInclude Include="GroundTransport.hpp" />
     <ClInclude Include="FlyingCarpet.hpp" />
     <ClInclude Include="TheFastMovingCamel.hpp" />
+    <ClInclude Include="Transport.hpp" />
     <ClInclude Include="vehicle.hpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="AirTransport.cpp" />
     <ClCompile Include="AllTerrainBoots.cpp" />
     <ClCompile Include="Broom.cpp" />
     <ClCompile Include="Camel.cpp" />
     <ClCompile Include="Centaur.cpp" />
     <ClCompile Include="Eagle.cpp" />
-    <ClCompile Include="Entity.cpp" />
+    <ClCompile Include="GroundTransport.cpp" />
     <ClCompile Include="FlyingCarpet.cpp" />
     <ClCompile Include="TheFastMovingCamel.cpp" />
+    <ClCompile Include="Transport.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>

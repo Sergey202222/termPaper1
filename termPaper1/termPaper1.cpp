@@ -3,7 +3,7 @@
 #include <vector>
 #include <map>
 
-void race(std::vector<vehicle::Entity*>& vehicles, int distance)
+void race(std::vector<vehicle::Transport*>& vehicles, int distance)
 {
     for (int iindex{ 1 }; iindex < vehicles.size(); ++iindex)
     {
@@ -21,7 +21,7 @@ void race(std::vector<vehicle::Entity*>& vehicles, int distance)
 int main()
 {
     setlocale(LC_ALL, "rus");
-    std::vector<vehicle::Entity*> vehicles;
+    std::vector<vehicle::Transport*> vehicles;
     int action{};
     int type{};
     bool flag{ true };

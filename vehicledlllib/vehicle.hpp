@@ -1,6 +1,8 @@
 #pragma once
 
-#include "Entity.hpp"
+#include "Transport.hpp"
+#include "GroundTransport.hpp"
+#include "AirTransport.hpp"
 #include "Camel.hpp"
 #include "TheFastMovingCamel.hpp"
 #include "Centaur.hpp"
