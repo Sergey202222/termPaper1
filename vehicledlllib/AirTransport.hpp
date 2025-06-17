@@ -1,3 +1,4 @@
+#pragma once
 #include "Transport.hpp"
 
 namespace vehicle
